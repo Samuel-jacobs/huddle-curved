@@ -81,12 +81,17 @@ section button:hover {
 	text-align: left;
 }
 
+.top, .top2, .footer-top {
+	margin-bottom: -5px;
+}
+
+
 .text {
 	color: var(--very-dark-cyan);
 }
 #grow-together {
 	background-color: var(--very-pale-blue);
-	
+	margin-top: 0;
 }
 .image{
 	height: auto;
@@ -121,23 +126,7 @@ section button:hover {
 .f-socials a:hover {
 	color: cyan;
 }
-@media screen and (max-width: 400px) {
-	.top {
-		height: 110px;
-	}
-	.bottom {
-		height: 50px;
-	}
-	.top2 {
-		height: 105px;
-	}
-	.bottom2 {
-		height: 100px;
-	}
-	.footer-top {
-		height: 50px;
-	}
-}
+
 @media screen and (max-width: 768px) {
 	#nav {
 		padding: 30px 10px;
@@ -154,34 +143,6 @@ section button:hover {
 		flex-direction: column;
 	}
 
-	.top {
-		background-image: url('images/bg-section-top-mobile-1.svg');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 100%;
-		height: 140px;
-	}
-	.bottom {
-		background-image: url('images/bg-section-bottom-mobile-1.svg');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 100%;
-		height: 65px;
-	}
-	.top2 {
-		background-image: url('images/bg-section-top-mobile-2.svg');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 100%;
-		height: 130px;
-	}
-	.bottom2 {
-		background-image: url('images/bg-section-bottom-mobile-2.svg');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 100%;
-		height: 130px;
-	}
 
 	#grow-together {
 		padding: 60px 30px;
@@ -205,13 +166,6 @@ section button:hover {
 		padding-bottom: 200px;
 	}
 
-	.footer-top {
-		background-image: url('images/bg-footer-top-mobile.svg');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 100%;
-		height: 65px;
-	}
 	#footer {
 		padding: 20px;
 		color: white;
@@ -272,34 +226,6 @@ section button:hover {
 		font-weight: bolder;
 	}
 	
-	.top {
-		background-image: url('images/bg-section-top-desktop-1.svg');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 100%;
-		height: 155px;
-	}
-	.bottom {
-		background-image: url('images/bg-section-bottom-desktop-1.svg');
-		background-repeat: no-repeat;
-		background-position: center;
-		height: 120px;
-	}
-	.top2 {
-		background-image: url('images/bg-section-top-desktop-2.svg');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 100%;
-		height: 145px;
-	}
-	.bottom2 {
-		background-image: url('images/bg-section-bottom-desktop-2.svg');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 100%;
-		height: 130px;
-	}
-
 	.text h2 {
 		font-size: 2.5rem;
 	}
@@ -351,13 +277,6 @@ section button:hover {
 		width: 40%;
 	}
 
-	.footer-top {
-		background-image: url('images/bg-footer-top-desktop.svg');
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 100%;
-		height: 148px
-	}
 
 	#cta {
 		text-align: center;
