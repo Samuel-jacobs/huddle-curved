@@ -121,10 +121,28 @@ section button:hover {
 .f-socials a:hover {
 	color: cyan;
 }
+@media screen and (max-width: 400px) {
+	.top {
+		height: 110px;
+	}
+	.bottom {
+		height: 50px;
+	}
+	.top2 {
+		height: 105px;
+	}
+	.bottom2 {
+		height: 100px;
+	}
+	.footer-top {
+		height: 50px;
+	}
+}
 @media screen and (max-width: 768px) {
 	#nav {
 		padding: 30px 10px;
 	}
+
 	#banner {
 		padding: 50px;
 	}
